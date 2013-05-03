@@ -16,7 +16,7 @@ class BP_GroupGallery_Extension extends BP_Group_Extension
 
         $this->nav_item_position = 41;
 
-        $this->enable_nav_item = true;
+        $this->enable_nav_item = apply_filters ( 'bp_group_gallery_enable_for_current_group', true );;
     }
 
     function display() {
