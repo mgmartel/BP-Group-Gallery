@@ -1,0 +1,89 @@
+/** GALLERY **/
+.bp-group-gallery-wrap { padding: 5px 0; }
+.bp-group-gallery-wrap .gallery {
+    margin: auto;
+}
+.bp-group-gallery-wrap .gallery .gallery-item {
+    margin-top: 10px;
+    text-align: center;
+    width: 20%;
+    display: inline-block;
+    vertical-align: top;
+    overflow: hidden;
+}
+.bp-group-gallery-wrap .gallery img {
+    border: 2px solid #cfcfcf;
+}
+.bp-group-gallery-wrap .gallery .gallery-caption {
+    margin-left: 0;
+}
+
+/** AJAX LOADER **/
+.bp-group-gallery-wrap { position: relative; }
+.bp-group-gallery-wrap .loading {
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    position: absolute;
+    z-index: 9999;
+    background: url('/images/ajax-loader.gif') #ffffff;
+    background-position: center center;
+    background-repeat: no-repeat;
+    text-align: center;
+    opacity: 0.75;
+}
+
+/** BUTTONS **/
+#bp-group-gallery-media-buttons {
+    display: inline-block;
+    vertical-align: middle;
+}
+#bp-group-gallery-media-buttons a {
+    margin-left: 10px;
+}
+
+#bp-group-gallery-media-buttons .button {
+	margin-right: 5px;
+}
+
+.rtl #bp-group-gallery-media-buttons.button {
+	margin-right: 0;
+	margin-left: 5px;
+}
+
+#bp-group-gallery-media-buttons .insert-media {
+	padding-left: 0.4em;
+}
+
+.rtl #bp-group-gallery-media-buttons .insert-media {
+	padding-left: 10px;
+	padding-right: 0.4em;
+}
+
+#bp-group-gallery-media-buttons a {
+	text-decoration: none;
+	color: #464646;
+	font-size: 12px;
+}
+
+#bp-group-gallery-media-buttons img {
+	padding: 0 4px;
+	vertical-align: middle;
+}
+
+#bp-group-gallery-media-buttons span.wp-media-buttons-icon {
+	display: inline-block;
+	width: 16px;
+	height: 16px;
+	vertical-align: text-top;
+	margin: 0 2px;
+}
+
+#bp-group-gallery-media-buttons .add-bp-group-gallery span.wp-media-buttons-icon {
+	background: url('../images/media-button.png') no-repeat top left;
+}
+
+#bp-group-gallery-media-buttons .edit-bp-group-gallery span.wp-media-buttons-icon {
+	background: url('../images/edit-button.png') no-repeat top left;
+}

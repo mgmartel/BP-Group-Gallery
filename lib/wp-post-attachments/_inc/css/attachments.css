@@ -1,0 +1,71 @@
+#post-attachments-display {
+    margin-top: 20px;
+}
+
+.post-attachments-container {
+    overflow: auto;
+    border:1px solid #ccc;
+    min-height:40px;
+    /*margin-top:20px;*/
+    padding:10px;
+}
+
+.post-attachments-container li {
+    clear: left;
+    margin-bottom: 20px;
+    list-style: none;
+}
+
+.post-attachments-container img {
+    float: left;
+    margin-right: 10px;
+}
+
+.post-attachments-container .meta {
+    margin-left: 56px;
+    min-height: 60px;
+}
+
+.post-attachments-container .meta h4 {
+    margin-bottom: 0;
+}
+
+.post-attachments-container .meta h4 > a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.post-attachments-container .meta h4 span {
+    font-size: 0.8em;
+    font-style: italic;
+    font-weight: normal;
+}
+
+.wp-editor-tools.post-attachment {
+    margin: 10px 0;
+}
+
+.attachment-icon {
+    background: url('../images/attachment-icon.png') no-repeat top left;
+
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    vertical-align: middle;
+    margin: 0 2px;
+
+}
+
+.attachment-icon.has-number {
+    font-size: 11px;
+    text-align: right;
+    padding-left: 3px;
+    padding-top: 4px;
+}
+
+.add_media .attachment-icon {
+    vertical-align: text-top;
+}
+.post-attachments-container.display.comment h4 {
+    font-size: 14px;
+}
